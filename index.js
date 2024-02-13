@@ -32,6 +32,28 @@ app.get("/orange", (req, res)=>{
     res.send("You contacted orange path")
 
 })
+
+
+// mulitipll queris : 
+// app.get("/search", (req, res)=>{
+//     let { a, b } = req.query;
+//     // console.log(q)
+//     if(!a && !b){
+//         res.send("Nothing is searched")
+//     }
+//     let temp = `<p>Search Results For : ${a}</p> 
+//                 <h3>b is : ${b}</h3>`
+//     res.send(temp)
+//     console.log(req.query)
+//     // console.log(q)
+// })
+// app.get("/", (req, res)=>{
+//     // res.send("I Home in get ")
+
+
+//     // console.log(id)
+// })
+
 // app.get("*", (req, res)=>{
 //     res.send("this path dose not exist.")
 // })
